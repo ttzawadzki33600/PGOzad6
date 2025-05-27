@@ -11,16 +11,6 @@ public class Car extends Vehicle{
         return numberOfSeats;
     }
 
-    @Override
-    public void start(){
-        System.out.println("Samochód został uruchomiony.");
-    }
-
-    @Override
-    public void stop(){
-        System.out.println("Samochód został zatrzymany.");
-
-    }
 
 
 }
